@@ -161,10 +161,9 @@ section .title::before{
 }
 section .title::after{
     position: absolute;
-    bottom:-12px;
+    bottom:-30px;
     left: 50%;
     font-size: 20px;
-    background: #fff;
     color: #6144ca;
     padding: 5px;
     transform: translateX(-50%);
@@ -186,7 +185,6 @@ section .title::after{
 
 .about .title::after{
     content: "Quem sou eu";
-    text-align: justify;
 }
 .about .about-content .left{
     width: 45%;
@@ -239,8 +237,8 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
+    bottom:-30px;
     content: "O que oferecemos";
-    text-align: justify;
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
