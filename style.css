@@ -185,6 +185,7 @@ section .title::after{
 
 .about .title::after{
     content: "Quem sou eu";
+    bottom: -70%;
 }
 .about .about-content .left{
     width: 45%;
